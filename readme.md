@@ -8,7 +8,7 @@ A free alternative to LinkTree!
 ## Demo
 Check [Preview](https://linktree.amrohan.ml)
 <p align="center">
-  <img src="assets/ss.png"/>
+  <img src="assets/ss.webp"/>
 </p>
 
   
