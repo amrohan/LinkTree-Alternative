@@ -31,7 +31,7 @@ Simply fork the repository or download the source code.
 
 #### Is it possible to utilise this for free?
 
-As I previously stated, it is completely free and open source for you to modify as you want.\
+As I previously stated, it is completely free and open source for you to modify as you want.
 
 
 
