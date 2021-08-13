@@ -8,7 +8,7 @@ Linktree works by creating a landing page on their site, which features multiple
 - It's easy to make one.
 
 ### Make one like this 👇
-[Live Demo](https://linkr.amrohan.ml)
+[Live Demo](https://amrohan.ml)
 
 ![Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9o52d105s2he31w1ab6i.png)
 
