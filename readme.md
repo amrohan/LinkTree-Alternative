@@ -1,5 +1,5 @@
 
-# Link Tree Alternative
+# Link Tree Alternative (LinkHub)
 ## What is linktree ?
 Linktree works by creating a landing page on their site, which features multiple links to your site. You simply copy and paste your Linktree landing page URL into your Instagram bio to raise awareness of other parts of your site.
 ### Why should you make your own LinkTree, though?
@@ -8,7 +8,7 @@ Linktree works by creating a landing page on their site, which features multiple
 - It's easy to make one.
 
 ### Make one like this 👇
-[Live Demo](https://amrohan.ml)
+[Live Demo](https://linkhub.ml)
 
 ![Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9o52d105s2he31w1ab6i.png)
 
