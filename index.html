@@ -3,20 +3,20 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <title>Rohan Salunkhe | Links</title>
+    <title>LinkHub | Links</title>
     <meta
       name="description"
-      content="A link tree alternative created by Rohan Salunkhe that is free to use and modify."
+      content="A link tree alternative created by Rohan Salunkhe that is free to use and modify. Also known as Linkhub"
     />
     <meta http-equiv="content-language" content="”en-us”" />
     <meta
       property="og:description"
-      content="A open source linktr.ee alternative created by rohan salunkhe known as amrohan"
+      content="A open source linktr.ee alternative created by rohan salunkhe known as amrohan the project is known as LinkHub"
     />
-    <meta property="og:url" content="https://amrohan.ml" />
+    <meta property="og:url" content="https://linkhub.ml" />
 
     <!-- Importing Styles  -->
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="tailwind.css" />
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
     <!-- Importing SVG Icons -->
@@ -28,101 +28,161 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-
     <!-- favicon -->
-    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
+      href="favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
+      href="favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
+      href="favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
   </head>
 
   <body>
-    <!-- Uer phots and name goes here -->
-
-    <img id="userPhoto" src="assets/img/me.webp" />
-
-    <spam id="userName">Rohan Salunkhe</spam><br />
-    <span id="para"
-      >All of my social media links, as well as links to my most recent
-      projects, are listed below.</span
+    <div
+      class="
+        bg-darko
+        text-white
+        flex flex-col
+        justify-center
+        items-center
+        m-0
+        p-0
+        w-screen
+        h-screen
+        font-ubuntu
+      "
     >
+      <!-- Your Profile Picture Goes Here Add It Root Folder Or Give Paste Link Of It -->
+      <img
+        class="rounded-full w-24 mb-8"
+        src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8ptezresdz7v3007uxre.jpg"
+        alt="rohan salunkhe profile pic"
+      />
 
-    <!-- Links content goes here -->
+      <!-- Your Name And Paragraph Goes Here -->
+      <h1 class="animate-bounce">Rohan Salunkhe</h1>
+      <p class="mb-8 max-w-screen-md items-center text-gray-300 text-center">
+        All of my social media links, as well as links to my most recent
+        projects, are listed below.
+      </p>
 
-    <div id="links">
-      <a class="link" href="https://rohan.ml" target="_blank"> Website</a>
-
-      <a class="link" href="https://chathub.gq" target="_blank"> ChatRoom</a>
-
-      <a class="link" href="https://github.com/amrohan/ChatBot" target="_blank">
-        ChatBot-Telegram Bot</a
-      >
-
+      <!-- All Links Goes Here  -->
       <a
-        class="link"
+        class="
+          rounded-xl
+          max-w-screen-md
+          flex flex-col
+          w-screen
+          h-10
+          bg-red-300
+          justify-center
+          items-center
+          m-2
+        "
+        href="https://rohan.ml/"
+        >Website</a
+      >
+      <a
+        class="
+          rounded-xl
+          max-w-screen-md
+          flex flex-col
+          w-screen
+          h-10
+          bg-green-400
+          justify-center
+          items-center
+          m-2
+        "
+        href="https://chathub.gq/"
+        >Chat-Hub</a
+      >
+      <a
+        class="
+          rounded-xl
+          max-w-screen-md
+          flex flex-col
+          w-screen
+          h-10
+          bg-blue-400
+          justify-center
+          items-center
+          m-2
+        "
+        href="https://github.com/amrohan/ChatBot"
+        >Chat-Bot</a
+      >
+      <a
+        class="
+          rounded-xl
+          max-w-screen-md
+          flex flex-col
+          w-screen
+          h-10
+          bg-purple-400
+          justify-center
+          items-center
+          m-2
+        "
         href="https://github.com/amrohan/Spotify-Api"
-        target="_blank"
-        >Spotify-Api player</a
+        >Spotify Readme</a
       >
-
       <a
-        class="link"
+        class="
+          rounded-xl
+          max-w-screen-md
+          flex flex-col
+          w-screen
+          h-10
+          bg-pink-400
+          justify-center
+          items-center
+          m-2
+        "
         href="https://github.com/amrohan/LinkTree-Alternative"
-        target="_blank"
+        >Linktree</a
       >
-        Make your own LinkTree</a
-      >
-    </div>
 
-    <!-- Socials goes here change accordingly -->
+      <!-- All Socail Links Goes Here -->
+      <div class="inline-flex w-56 justify-evenly mt-4 text-xl duration-1000">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/amrohann" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
 
-    <div class="footer">
-      <!-- Instagram -->
-      <a href="https://www.instagram.com/amrohann" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
+        <!-- Telegram -->
+        <a href="https://t.me/amrohan" target="_blank">
+          <i class="fab fa-telegram"></i>
+        </a>
 
-      <!-- Telegram -->
-      <a href="https://t.me/amrohan" target="_blank">
-        <i class="fab fa-telegram"></i>
-      </a>
+        <!-- Twitter -->
+        <a href="https://twitter.com/amrohann" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
 
-      <!-- Twitter -->
-      <a href="https://twitter.com/amrohann" target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
+        <!-- Gmail -->
+        <a href="mailto: hello@rohan.ml">
+          <i class="fas fa-envelope"></i>
+        </a>
 
-      <!-- Gmail -->
-      <a href="mailto: hello@rohan.ml">
-        <i class="fas fa-envelope"></i>
-      </a>
-
-      <!-- Github -->
-      <a href="https://github.com/amrohan" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
+        <!-- Github -->
+        <a href="https://github.com/amrohan" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
     </div>
   </body>
 </html>
