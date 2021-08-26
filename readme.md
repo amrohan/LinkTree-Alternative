@@ -10,7 +10,7 @@ Linktree works by creating a landing page on their site, which features multiple
 ### Make one like this 👇
 [Live Demo](https://linkhub.ml)
 
-![Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9o52d105s2he31w1ab6i.png)
+![Website Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pdv7l0g6ue4049d16cr5.png)
 
 Before we begin, you should be familiar with the fundamentals of HTML and CSS.
 
