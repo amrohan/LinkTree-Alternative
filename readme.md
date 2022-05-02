@@ -1,5 +1,17 @@
 
 # Link Tree Alternative (LinkHub)
+
+## Updates 🚀
+- Reformatted the code to be more readable and remove some unused code and unnecessary files.
+- Added Template for the new link tree.
+- More themes will be added soon.
+  
+### New Templates
+Themes| Demo | Image
+---|---|---|
+|Dark Theme|[Demo](https://amrohan.github.io/LinkTree-Alternative/templates/darktheme.html)|![Dark Theme](/screenshots/DarkTheme.png)|
+|Rainbow Theme|[Demo](https://amrohan.github.io/LinkTree-Alternative/)|![Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pdv7l0g6ue4049d16cr5.png)|
+
 ## What is linktree ?
 Linktree works by creating a landing page on their site, which features multiple links to your site. You simply copy and paste your Linktree landing page URL into your Instagram bio to raise awareness of other parts of your site.
 ### Why should you make your own LinkTree, though?
